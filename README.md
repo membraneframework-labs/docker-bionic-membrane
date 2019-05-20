@@ -2,7 +2,7 @@
 
 A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run membrane elements.
 
-This image is based on Ubuntu 19.04, and contains:
+This image is based on Ubuntu 18.04, and contains:
 - Erlang 21.3
 - Elixir 1.8.1
 - FFMpeg 4.1.3
