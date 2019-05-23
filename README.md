@@ -1,11 +1,11 @@
-# Ubuntu Membrane docker image
+# Ubuntu-based Membrane Docker image
 
-A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run membrane elements.
+A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run the [Membrane Framework](https://membraneframework.org).
 
 This image is based on Ubuntu 18.04, and contains:
 - Erlang 21.3
 - Elixir 1.8.1
-- FFMpeg 4.1.3
+- FFmpeg 4.1.3
 - SDL2
 - FDK AAC 2.0
 
