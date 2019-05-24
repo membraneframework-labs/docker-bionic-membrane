@@ -1,5 +1,5 @@
 VERSION ?= latest
-IMAGE ?= membrane/ubuntu-membrane-docker
+IMAGE ?= membrane/docker-ubuntu18-membrane
 DIR ?= `pwd`
 
 build:

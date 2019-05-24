@@ -2,7 +2,7 @@
 
 A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run the [Membrane Framework](https://membraneframework.org).
 
-This image is based on Ubuntu 18.04, and contains:
+This image is based on Ubuntu 18.04 and contains:
 - Erlang 21.3
 - Elixir 1.8.1
 - FFmpeg 4.1.3
@@ -47,8 +47,8 @@ mix test
 
 # Copyright and License
 
-Copyright 2019, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=elixir-fdk-aac-docker)
+Copyright 2019, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=docker-ubuntu18-membrane)
 
-[![Software Mansion](https://membraneframework.github.io/static/logo/swm_logo_readme.png)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=elixir-fdk-aac-docker)
+[![Software Mansion](https://membraneframework.github.io/static/logo/swm_logo_readme.png)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=docker-ubuntu18-membrane
 
 Licensed under the [Apache License, Version 2.0](LICENSE)
