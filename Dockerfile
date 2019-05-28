@@ -6,8 +6,8 @@ SHELL ["/bin/bash", "-c"]
 
 RUN \
     #common
-    echo -e '[[ -z $MEMBRANE_DOCKER_INIT ]] || return\nexport MEMBRANE_DOCKER_INIT=true' > ~/.init && \
-    chmod u+x ~/.init && . ~/.init && \
+    echo -e 'unset BASH_ENV' > ~/.init && \
+    . ~/.init && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get -y install git wget locales software-properties-common && \
