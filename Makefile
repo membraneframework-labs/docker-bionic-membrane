@@ -1,5 +1,5 @@
 VERSION ?= latest
-IMAGE ?= membrane/docker-ubuntu18-membrane
+IMAGE ?= membrane/bionic-membrane
 DIR ?= `pwd`
 
 build:
