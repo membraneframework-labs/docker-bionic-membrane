@@ -1,5 +1,5 @@
 VERSION ?= latest
-IMAGE ?= membrane/ubuntu-membrane
+IMAGE ?= membrane/bionic-membrane
 DIR ?= `pwd`
 
 build:

@@ -1,11 +1,13 @@
 FROM ubuntu:18.04
 
+ENV BASH_ENV=~/.init
+
 SHELL ["/bin/bash", "-c"]
 
 RUN \
     #common
-    touch ~/.init && chmod u+x ~/.init && \
-    echo -e '\n. ~/.init' >> ~/.bashrc && \
+    echo -e 'unset BASH_ENV' > ~/.init && \
+    . ~/.init && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
     apt-get -y install git wget locales software-properties-common && \
@@ -22,7 +24,7 @@ RUN \
       libxslt-dev libffi-dev libtool unixodbc-dev \
       unzip curl
 
-RUN . ~/.init && \
+RUN \
     # erlang
     asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git && \
     apt-get -y install \
@@ -33,7 +35,7 @@ RUN . ~/.init && \
     asdf global erlang 21.3 && \
     echo -e '\nasdf global erlang 21.3' >> ~/.init
 
-RUN . ~/.init && \
+RUN \
     # elixir
     asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git && \
     asdf install elixir 1.8.1 && \
@@ -42,7 +44,7 @@ RUN . ~/.init && \
     mix local.hex --force && \
     mix local.rebar --force
 
-RUN . ~/.init && \
+RUN \
     # ffmpeg
     add-apt-repository -y ppa:jonathonf/ffmpeg-4 && apt-get update && \
     apt-get -y install \
