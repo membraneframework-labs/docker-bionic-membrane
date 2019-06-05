@@ -49,6 +49,6 @@ mix test
 
 Copyright 2019, [Software Mansion](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=docker-bionic-membrane)
 
-[![Software Mansion](https://membraneframework.github.io/static/logo/swm_logo_readme.png)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=docker-bionic-membrane
+[![Software Mansion](https://membraneframework.github.io/static/logo/swm_logo_readme.png)](https://swmansion.com/?utm_source=git&utm_medium=readme&utm_campaign=docker-bionic-membrane)
 
 Licensed under the [Apache License, Version 2.0](LICENSE)
