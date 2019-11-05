@@ -5,7 +5,7 @@ A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to t
 This image is based on Ubuntu 18.04 (Bionic) and contains:
 - Erlang 21.3
 - Elixir 1.8.1
-- FFmpeg 4.1.3
+- FFmpeg 4.2.1
 - SDL2
 - FDK AAC 2.0
 - Portaudio 19.6.0

@@ -53,7 +53,7 @@ RUN \
     # ffmpeg
     add-apt-repository -y ppa:jonathonf/ffmpeg-4 && apt-get update && \
     apt-get -y install \
-    ffmpeg=7:4.1.4-0york3~18.04 libavcodec-dev libavdevice-dev libavformat-dev \
+    ffmpeg=7:4.2.1-0york0~18.04.1 libavcodec-dev libavdevice-dev libavformat-dev \
     libavfilter-dev libavformat-dev libavresample-dev libavutil-dev \
     libpostproc-dev libswresample-dev libswscale-dev && \
     # sdl
