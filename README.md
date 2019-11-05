@@ -8,6 +8,8 @@ This image is based on Ubuntu 18.04 (Bionic) and contains:
 - FFmpeg 4.1.3
 - SDL2
 - FDK AAC 2.0
+- Portaudio 19.6.0
+- MAD 0.15.1
 
 ## Building the image
 To rebuild the image, run the following command:

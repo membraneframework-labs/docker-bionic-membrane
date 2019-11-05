@@ -64,4 +64,8 @@ RUN \
     tar -xf fdk-aac-2.0.0.tar.gz && cd fdk-aac-2.0.0 && \
     ./configure --prefix=/usr --disable-static \
     && make && make install && cd .. && \
-    rm -rf fdk-aac-2.0.0 && rm fdk-aac-2.0.0.tar.gz && cd / \
+    rm -rf fdk-aac-2.0.0 && rm fdk-aac-2.0.0.tar.gz && cd / && \
+    # portaudio
+    apt-get -y install portaudio19-dev && \
+    # mad
+    apt-get -y install libmad0-dev
