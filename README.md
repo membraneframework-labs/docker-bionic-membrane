@@ -2,6 +2,8 @@
 
 A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run the [Membrane Framework](https://membraneframework.org).
 
+[Available on Docker Hub](https://hub.docker.com/r/membrane/bionic-membrane).
+
 This image is based on Ubuntu 18.04 (Bionic) and contains:
 - Erlang 21.3
 - Elixir 1.8.1
