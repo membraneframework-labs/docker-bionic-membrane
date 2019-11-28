@@ -42,9 +42,9 @@ RUN \
 RUN \
     # elixir
     asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git && \
-    asdf install elixir 1.8.1 && \
-    asdf global elixir 1.8.1 && \
-    echo -e '\nasdf global elixir 1.8.1' >> ~/.init && \
+    asdf install elixir 1.9.4 && \
+    asdf global elixir 1.9.4 && \
+    echo -e '\nasdf global elixir 1.9.4' >> ~/.init && \
     mix local.hex --force && \
     mix local.rebar --force
 
