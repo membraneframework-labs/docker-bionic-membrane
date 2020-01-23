@@ -5,9 +5,9 @@ A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to t
 [Available on Docker Hub](https://hub.docker.com/r/membrane/bionic-membrane).
 
 This image is based on Ubuntu 18.04 (Bionic) and contains:
-- Erlang 21.3
+- Erlang 22.2
 - Elixir 1.9.4
-- FFmpeg 4.2.1
+- FFmpeg 4.2.2
 - SDL2
 - FDK AAC 2.0
 - Portaudio 19.6.0
