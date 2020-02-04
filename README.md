@@ -5,7 +5,7 @@ A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to t
 [Available on Docker Hub](https://hub.docker.com/r/membrane/bionic-membrane).
 
 This image is based on Ubuntu 18.04 (Bionic) and contains:
-- Erlang 22.2
+- Erlang 21.3 and 22.2
 - Elixir 1.9.4
 - FFmpeg 4.2.2
 - SDL2
@@ -49,6 +49,10 @@ and execute your app's code (for example tests)
 ```sh
 mix test
 ```
+
+## Version selection
+
+The image contains multiple erlang versions and the default is 22.2. You can specify which one should be selected by running: `asdf global erlang <version>` in your script.
 
 # Copyright and License
 

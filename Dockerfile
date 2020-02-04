@@ -35,6 +35,7 @@ RUN \
     build-essential autoconf m4 libncurses5-dev libwxgtk3.0-dev \
     libgl1-mesa-dev libglu1-mesa-dev libpng-dev libssh-dev unixodbc-dev \
     xsltproc fop && \
+    asdf install erlang 21.3 && \
     asdf install erlang 22.2 && \
     asdf global erlang 22.2 && \
     echo -e '\nasdf global erlang 22.2' >> ~/.init
