@@ -52,7 +52,7 @@ mix test
 
 ## Version selection
 
-The image contains multiple erlang versions. You can specify which one should be selected by running: `asdf global erlang <version>` in your script.
+The image contains multiple erlang versions and the default is 22.2. You can specify which one should be selected by running: `asdf global erlang <version>` in your script.
 
 # Copyright and License
 
