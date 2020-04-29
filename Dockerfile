@@ -5,7 +5,7 @@ ENV BASH_ENV=~/.init
 SHELL ["/bin/bash", "-c"]
 
 RUN \
-    #common
+    # common
     echo -e 'unset BASH_ENV' > ~/.init && \
     . ~/.init && \
     export DEBIAN_FRONTEND=noninteractive && \
@@ -13,7 +13,7 @@ RUN \
     apt-get -y install build-essential git wget locales software-properties-common && \
     locale-gen en_US.UTF-8 && \
     echo -e '\nexport LC_ALL=en_US.UTF-8' >> ~/.init && \
-    #gcc
+    # gcc
     add-apt-repository ppa:ubuntu-toolchain-r/test -y && apt-get update && \
     apt-get install gcc-9 -y && \
     # asdf
@@ -59,7 +59,7 @@ RUN \
     libpostproc-dev libswresample-dev libswscale-dev && \
     # sdl
     apt-get -y install libsdl2-dev && \
-    #fdk-aac
+    # fdk-aac
     cd /tmp && \
     wget https://downloads.sourceforge.net/opencore-amr/fdk-aac-2.0.0.tar.gz && \
     tar -xf fdk-aac-2.0.0.tar.gz && cd fdk-aac-2.0.0 && \
@@ -71,4 +71,6 @@ RUN \
     # mad
     apt-get -y install libmad0-dev && \
     # flac
-    apt-get -y install libflac-dev
+    apt-get -y install libflac-dev && \
+    # opus
+    apt-get -y install libopus-dev
