@@ -13,6 +13,7 @@ This image is based on Ubuntu 18.04 (Bionic) and contains:
 - Portaudio 19.6.0
 - MAD 0.15.1
 - FLAC 1.3.2
+- OPUS 1.1.2
 
 ## Building the image
 To rebuild the image, run the following command:
