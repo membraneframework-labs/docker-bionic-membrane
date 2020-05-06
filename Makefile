@@ -1,5 +1,5 @@
 VERSION ?= latest
-IMAGE ?= membrane/bionic-membrane
+IMAGE ?= membrane/focal-membrane
 DIR ?= `pwd`
 
 build:
