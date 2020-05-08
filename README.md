@@ -1,3 +1,5 @@
+# Development moved to: https://github.com/membraneframework/docker-membrane
+
 # Ubuntu 18.04 based Membrane Docker image
 
 A docker image based on Ubuntu, with Erlang, Elixir and libraries necessary to test and run the [Membrane Framework](https://membraneframework.org).
